@@ -15,7 +15,7 @@ fi
 if [ "${mpi}" != "nompi" ]; then
   MPI=true
 else
-  MPI=OFF
+  MPI=false
 fi 
 
 meson setup _build \
