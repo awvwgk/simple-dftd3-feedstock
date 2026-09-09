@@ -13,7 +13,7 @@ EOF
 fi
 
 if [ "${mpi}" != "nompi" ]; then
-  MPI=ON
+  MPI=true
 else
   MPI=OFF
 fi 
